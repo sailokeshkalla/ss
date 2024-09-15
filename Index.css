@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    font-size: xx-large;
+    color: white;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background:black;
+
+}
+.loginform{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    width: 100px;
+}
+.loginbox{
+    margin: 10px;
+    margin-top: 20px;
+}
+.loginbox input{
+    width: 300px;
+    height: 50px;
+    position: relative;
+    border-radius: 50px;
+    border: 3px solid white;
+    font-size: larger;
+    outline: none;
+    padding-left: 5%;
+    color: white;
+    background: black;
+}
+.loginbox input::placeholder {
+    color:white;
+  }
+.button input{
+    width: 300px;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 50px;
+    background: linear-gradient(30deg,orange,white,green);
+    font-size: medium;
+    position: relative;
+    border: 5px;
+    cursor: pointer;
+}
+.links{
+    margin-top: 20px;
+   position: relative;
+  display: flex;
+  flex-direction: row;
+  font-size: large;
+ 
+}
+#l1{
+    margin-right: 100px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin-left: 0%;
+   
+}
